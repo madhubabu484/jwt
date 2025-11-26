@@ -30,6 +30,9 @@ public  class Custmer {
 	@NotNull(message =  "password cannot be null")
 	@Column(name = "password")
 	private String password;
+	@NotNull(message = "age Cannot be null")
+	@Column(name = "age")
+	private int age;
 
 	
 
