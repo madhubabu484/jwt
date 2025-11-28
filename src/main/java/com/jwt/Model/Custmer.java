@@ -45,6 +45,9 @@ public  class Custmer {
 	@NotNull(message = "surname Cannot be null")
 	@Column(name = "surname")
     private String surname;
+	@NotNull(message = "Villagename Cannot be null")
+	@Column(name = "Villagename")
+	private String Villagename;
 	
 
 }
