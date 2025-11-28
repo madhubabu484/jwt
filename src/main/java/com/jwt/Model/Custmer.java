@@ -33,6 +33,7 @@ public  class Custmer {
 	@NotNull(message = "age Cannot be null")
 	@Column(name = "age")
 	private int age;
+	private String fullName;
 
 	
 
