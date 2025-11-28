@@ -39,6 +39,9 @@ public  class Custmer {
 	@NotNull(message = "fullName Cannot be null")
 	@Column(name = "fullName")
 	private String fullName;
+	@NotNull(message = "pincode cannot be null")
+	@Column(name = "pincode")
+	private  String pincode;
 
 	
 
