@@ -36,6 +36,9 @@ public  class Custmer {
 	@NotNull(message = "State Cannot be null")
 	@Column(name = "State")
 	private String State;
+	@NotNull(message = "fullName Cannot be null")
+	@Column(name = "fullName")
+	private String fullName;
 
 	
 
