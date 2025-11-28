@@ -12,5 +12,6 @@ public class ResponseDTO {
 	private String message;
 	private String email;
 	private String name;
+	private String pincode;
 
 }

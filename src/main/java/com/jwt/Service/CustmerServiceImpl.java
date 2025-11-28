@@ -21,12 +21,14 @@ public class CustmerServiceImpl implements CustmerService {
 		u1.setName(dto.getName());
 		u1.setPassword(dto.getPassword());
 		u1.setEmail(dto.getEmail());
+		u1.setPincode(dto.getPincode());
 
 		Custmer user = userrepository.save(u1);
 
 		ResponseDTO responsedto = new ResponseDTO();
 		responsedto.setEmail(user.getEmail());
 		responsedto.setName(user.getName());
+		responsedto.setPincode(user.getPincode());
 		responsedto.setMessage("User Sucessfully Created");
 
 		return responsedto;
